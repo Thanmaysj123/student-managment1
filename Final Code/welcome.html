@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Admission - Welcome</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+            color: #2c3e50;
+        }
+
+        button {
+            font-size: 1rem;
+            padding: 10px 20px;
+            margin: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        button:first-of-type {
+            background-color: #3498db;
+            color: white;
+        }
+
+        button:nth-of-type(2) {
+            background-color: #e74c3c;
+            color: white;
+        }
+
+        button:hover {
+            opacity: 0.8;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to BASCK Admission Portal</h1>
+    <button onclick="window.location.href='user_login.php'">User Login</button>
+    <button onclick="window.location.href='admin_login.php'">Admin Login</button>
+</body>
+</html>

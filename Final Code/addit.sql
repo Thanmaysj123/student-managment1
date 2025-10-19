@@ -1,0 +1,1 @@
+ALTER TABLE admissions ADD course VARCHAR(255) NOT NULL;
